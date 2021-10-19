@@ -206,6 +206,14 @@
     <Compile Include="Migrations\202109300421466_PopulateGenre.Designer.cs">
       <DependentUpon>202109300421466_PopulateGenre.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202110191030438_AddRequiredAnnotationToMovieName.cs" />
+    <Compile Include="Migrations\202110191030438_AddRequiredAnnotationToMovieName.Designer.cs">
+      <DependentUpon>202110191030438_AddRequiredAnnotationToMovieName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202110191046188_AddRangeAnnotationToNumberInStock.cs" />
+    <Compile Include="Migrations\202110191046188_AddRangeAnnotationToNumberInStock.Designer.cs">
+      <DependentUpon>202110191046188_AddRangeAnnotationToNumberInStock.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -327,6 +335,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202109300421466_PopulateGenre.resx">
       <DependentUpon>202109300421466_PopulateGenre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202110191030438_AddRequiredAnnotationToMovieName.resx">
+      <DependentUpon>202110191030438_AddRequiredAnnotationToMovieName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202110191046188_AddRangeAnnotationToNumberInStock.resx">
+      <DependentUpon>202110191046188_AddRangeAnnotationToNumberInStock.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
